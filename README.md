@@ -20,17 +20,3 @@ This is where AOT tools, code editor extensions and any other development tools 
 
 * Some times Extensions don't work because Windows blocks the file after downloading it from internet. 
 ..* [Tommy Skaue has posted in his blog a possible fix to this problem](http://yetanotherdynamicsaxblog.blogspot.com.es/2013/03/free-editor-extensions-for-ax2012.html?showComment=1363082266457#c2118124613862283410]).
-
-## Examples
-
-### Brace Matching Extension
-
-!(http://download-codeplex.sec.s-msft.com/Download?ProjectName=ax2012editorext&amp;DownloadId=636297)
-
-### Highlight Words Extension
-
-!(http://download-codeplex.sec.s-msft.com/Download?ProjectName=ax2012editorext&amp;DownloadId=636298)
-
-#### Outlining Extension
-
-!(http://download-codeplex.sec.s-msft.com/Download?ProjectName=ax2012editorext&amp;DownloadId=721046)
