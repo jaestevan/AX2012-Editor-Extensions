@@ -1,6 +1,9 @@
-# AX2012 Tools - MorphX IDE - Editor Extensions
+# Microsoft Dynamics AX 2012 X++ Editor Extensions
 
-This is where AOT tools, code editor extensions and any other development tools related to AOT and MorphX go.
+Initial version of this project is based on the MSDN examples of Visual Studio 2010 extensions with the idea of extending them to the Microsoft Dynamics AX 2012 X++ source code editor.
+
+If you have any idea for improving this extensions or you discover a bug, please post to the Discussions area or Issue Tracker. We are open to suggestions!
+
 
 ## How to install the extensions
 
@@ -13,10 +16,24 @@ This is where AOT tools, code editor extensions and any other development tools 
 
 ## Building
 
-* This project needs to be built with **Visual Studio 2010 SDK**.
+* If you want to build this project to make changes yourself, it need to be built with **Visual Studio 2010 SDK**.
 * Download it **[here](http://www.microsoft.com/en-us/download/details.aspx?id=21835)**.
 
 ## Troubleshooting & Known issues
 
 * Some times Extensions don't work because Windows blocks the file after downloading it from internet. 
 ..* [Tommy Skaue has posted in his blog a possible fix to this problem](http://yetanotherdynamicsaxblog.blogspot.com.es/2013/03/free-editor-extensions-for-ax2012.html?showComment=1363082266457#c2118124613862283410]).
+
+# Extensions:
+
+## Brace Matching Extension
+
+[[https://github.com/jaestevan/AX2012-Editor-Extensions/tree/master/docs/ax-ext-bracematching.png|alt=Brace Matching Extension]]
+
+## Highlight Words Extension
+
+[[https://github.com/jaestevan/AX2012-Editor-Extensions/tree/master/docs/ax-ext-highlightword.png|alt=Highlight Words Extension]]
+
+## Outlining Extension
+
+[[https://github.com/jaestevan/AX2012-Editor-Extensions/tree/master/docs/ax-ext-outlining-v2.png|alt=Outlining Extension]]
