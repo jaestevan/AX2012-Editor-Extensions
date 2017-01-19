@@ -28,14 +28,12 @@ If you have any idea for improving this extensions or you discover a bug, please
 
 ## Brace Matching Extension
 
-[[https://github.com/jaestevan/AX2012-Editor-Extensions/blob/master/docs/img/ax-ext-bracematching.png|alt=BraceMatchingExtension]]
-![Brace Matching Extension](/blob/master/docs/img/ax-ext-bracematching.png?raw=true "Brace Matching Extension")
+![Brace Matching Extension](/docs/img/ax-ext-bracematching.png?raw=true "Brace Matching Extension")
 
 ## Highlight Words Extension
 
-[[https://github.com/jaestevan/AX2012-Editor-Extensions/blob/master/docs/img/ax-ext-highlightword.png|alt=Highlight-WordsExtension]]
-![Words Extension](/blob/master/docs/img/ax-ext-highlightword.png?raw=true "Words Extension")
+![Words Extension](/docs/img/ax-ext-highlightword.png?raw=true "Words Extension")
 
 ## Outlining Extension
 
-![Outlining Extension](/blob/master/docs/img/ax-ext-outlining-v2.png?raw=true "Outlining Extension")
+![Outlining Extension](/docs/img/ax-ext-outlining-v2.png?raw=true "Outlining Extension")
