@@ -7,7 +7,7 @@ If you have any idea for improving this extensions or you discover a bug, please
 
 ## How to install the extensions
 
-* [Downloads](http://ax2012editorext.codeplex.com/releases) the zip file with the libraries or clone the repository and build it yourself.
+* [Downloads](/Downloads) the libraries or clone the repository and build it yourself.
 * Close your Dynamics AX 2012 client.
 * **Unzip and copy** the libraries that you want to use to the AX client folder on disk 
 ..* By default: _C:\Program Files (x86)\Microsoft Dynamics AX\60\Client\Bin\EditorComponents_.
@@ -16,8 +16,7 @@ If you have any idea for improving this extensions or you discover a bug, please
 
 ## Building
 
-* If you want to build this project to make changes yourself, it need to be built with **Visual Studio 2010 SDK**.
-* Download it **[here](http://www.microsoft.com/en-us/download/details.aspx?id=21835)**.
+* If you want to build this project to make changes yourself, it need to be built with **[Visual Studio 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=21835)**.
 
 ## Troubleshooting & Known issues
 
