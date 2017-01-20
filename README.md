@@ -13,12 +13,12 @@ If you have any idea for improving this extensions or you discover a bug, please
 
 ### Brace Matching Extension
 
-![Brace Matching Extension](/docs/img/ax-ext-bracematching.png?raw=true "Brace Matching Extension")
+![Brace Matching Extension](../../wiki/images/ax-ext-bracematching.png?raw=true "Brace Matching Extension")
 
 ### Highlight Words Extension
 
-![Words Extension](/docs/img/ax-ext-highlightword.png?raw=true "Words Extension")
+![Words Extension](../../wiki/images/ax-ext-highlightword.png?raw=true "Words Extension")
 
 ### Outlining Extension
 
-![Outlining Extension](/docs/img/ax-ext-outlining-v2.png?raw=true "Outlining Extension")
+![Outlining Extension](../../wiki/images/ax-ext-outlining-v2.png?raw=true "Outlining Extension")
