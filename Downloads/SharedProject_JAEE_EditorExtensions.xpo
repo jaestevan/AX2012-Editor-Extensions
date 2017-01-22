@@ -1,0 +1,177 @@
+﻿Exportfile for AOT version 1.0 or later
+Formatversion: 1
+
+***Element: CLS
+
+; Microsoft Dynamics AX Class: JAEEEditorSettingsForm unloaded
+; --------------------------------------------------------------------------------
+  CLSVERSION 1
+  
+  CLASS #JAEEEditorSettingsForm
+    PROPERTIES
+      Name                #JAEEEditorSettingsForm
+      RunOn               #Client
+      Origin              #{B490FF92-9F08-4DA4-AAF0-369A4BADFEA0}
+    ENDPROPERTIES
+    
+    METHODS
+      SOURCE #classDeclaration
+        #public class JAEEEditorSettingsForm
+        #{
+        #}
+      ENDSOURCE
+      SOURCE #new
+        #private void new()
+        #{
+        #}
+      ENDSOURCE
+      SOURCE #main
+        #// BP Deviation docummented
+        #public static void main(Args _args)
+        #{
+        #    ExecutePermission   executePermission;
+        #    FolderName          clientBin;
+        #    Filename            formExeFile;
+        #
+        #    try
+        #    {
+        #        if (xGlobal::clientKind() != ClientType::Client)
+        #            return;
+        #
+        #        executePermission = new ExecutePermission();
+        #        executePermission.assert();
+        #
+        #        clientBin = xInfo::directory(DirectoryType::Bin);
+        #        if (clientBin != '')
+        #        {
+        #            formExeFile = strFmt(@"%1EditorComponents\JAEE.AX.EditorExtensions.EditorSettingsForm.exe", clientBin);
+        #            if (WinAPI::fileExistsClient(formExeFile))
+        #            {
+        #                WinAPI::shellExecute(formExeFile, '', clientBin + 'EditorComponents', '', true);
+        #            }
+        #        }
+        #    }
+        #    catch
+        #    {
+        #        info(strFmt('Setup form can not be openned. Try running it directly at: %1', formExeFile));
+        #    }
+        #
+        #    CodeAccessPermission::revertAssert();
+        #}
+      ENDSOURCE
+    ENDMETHODS
+  ENDCLASS
+
+***Element: FTM
+
+; Microsoft Dynamics AX MENUITEM : JAEEEditorSettingsForm unloaded
+; --------------------------------------------------------------------------------
+  VERSION 1
+  
+  MENUITEM #JAEEEditorSettingsForm
+    Type: 3
+    PROPERTIES
+      Name                #JAEEEditorSettingsForm
+      Label               #X++ Editor Extensions
+      ObjectType          #Class
+      Object              #JAEEEditorSettingsForm
+      RunOn               #Client
+      ConfigurationKey    #SysAdmin
+      Origin              #{637DF20D-2BE7-4C17-9648-675EAF2FD2D1}
+    ENDPROPERTIES
+    
+  ENDMENUITEM
+  
+
+***Element: PRN
+
+; Microsoft Dynamics AX Project : JAEE_EditorExtensions unloaded
+; --------------------------------------------------------------------------------
+  PROJECTVERSION 2
+  
+  PROJECT #JAEE_EditorExtensions
+  SHARED
+  PROPERTIES
+    Name                #JAEE_EditorExtensions
+    Origin              #{67EF9C8D-801A-4087-B9F0-3F643A921379}
+  ENDPROPERTIES
+  
+    PROJECTCLASS ProjectNode
+    GROUP #Classes
+      PROPERTIES
+        Name                #Classes
+        ProjectGroupType    #Classes
+        GroupMask           #
+        PreventEditProperties #No
+      ENDPROPERTIES
+      
+      BEGINNODE
+        FILETYPE 0
+        UTILTYPE 45
+        UTILOBJECTID 1025097
+        NODETYPE 329
+        NAME #JAEEEditorSettingsForm
+      ENDNODE
+      ENDGROUP
+      
+    GROUP #Menu Items
+      PROPERTIES
+        Name                #Menu Items
+        ProjectGroupType    #Action
+        GroupMask           #
+        PreventEditProperties #No
+      ENDPROPERTIES
+      
+      BEGINNODE
+        FILETYPE 0
+        UTILTYPE 3
+        UTILOBJECTID 0
+        NODETYPE 296
+        NAME #JAEEEditorSettingsForm
+      ENDNODE
+      ENDGROUP
+      
+    GROUP #Menus
+      PROPERTIES
+        Name                #Menus
+        ProjectGroupType    #Menus
+        GroupMask           #
+        PreventEditProperties #No
+      ENDPROPERTIES
+      
+      GROUP #DevelopmentTools
+        PROPERTIES
+          Name                #DevelopmentTools
+          ProjectGroupType    #WebMenus
+          GroupMask           #
+          PreventEditProperties #No
+        ENDPROPERTIES
+        
+        GROUP #Add the MenuItem included in this project to the standard menu: DevelopmentTools
+          PROPERTIES
+            Name                #Add the MenuItem included in this project to the standard menu: DevelopmentTools
+            ProjectGroupType    #Resources
+            GroupMask           #
+            PreventEditProperties #No
+          ENDPROPERTIES
+          
+          ENDGROUP
+          
+        GROUP #Then restart the client and you have a new item in the Tools menu.
+          PROPERTIES
+            Name                #Then restart the client and you have a new item in the Tools menu.
+            ProjectGroupType    #Resources
+            GroupMask           #
+            PreventEditProperties #No
+          ENDPROPERTIES
+          
+          ENDGROUP
+          
+        ENDGROUP
+        
+      ENDGROUP
+      
+  ENDPROJECT
+  
+
+***Element: END
